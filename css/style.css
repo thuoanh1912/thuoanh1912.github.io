@@ -1,0 +1,647 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	background: #141b21;
+	width: 1000px;
+	height: 3655px;
+	margin: 0 auto;
+}
+.home-page{
+	width: 1000px;
+	height: 635px;
+	background-image: url("../image/the-last-of-us-part-2-credit-naughty-dog@2000x1270(1).jpg");
+	background-size: cover;
+}
+.home-page .menu{
+	width: 1000px;
+	height: 60px;
+/*	background:#7E5455;*/
+}
+.home-page .menu .logo{
+	height: 50px;
+	width: 410px;
+	margin-top: 10px;
+	margin-left: 12px;
+/*	background: black;*/
+	float: left;
+}
+.home-page .menu .top-bar{
+	width: 500px;
+	height: 50px;
+/*	background:#B33C3E;*/
+	float: right;
+}
+.home-page .menu .top-bar ul{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+}
+.home-page .menu .top-bar ul li a{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-left: 40px;
+	line-height: 50px;
+}
+.home-page .menu .top-bar ul li a:hover{
+	color: #fec107;
+	transition-duration: 0.3s;
+}
+/*home-page*/
+.content{
+	width: 1000px;
+	height: 2629px;
+	background: grey;
+}
+.content .story{
+	width: 1000px;
+	height: 558px;
+	background-image: url("../image/the-last-of-us-part-2-hd-wallpaper-69684-72047-hd-wallpapers.jpg");
+	background-size: 1000px;
+	background-repeat: no-repeat;
+}
+.content .story .text{
+/*	background: black;*/
+	width: 400px;
+	height: 300px;
+	float: right;
+	color: white;
+	margin-right:30px;
+	margin-top: 55px;
+}
+.content .story .text .yellow-underline{
+	font-size: 30px;
+	font-weight: 600;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+	display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fec107;
+	margin-bottom: 32px;
+}
+.content .story .text p{
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+}
+/*story*/
+.content .jackson-county{
+/*	background: pink;*/
+	width: 1000px;
+	height: 763px;
+}
+.content .jackson-county .background{
+	width: 1000px;
+	height: 563px;
+	background-image: url("../image/The-Last-of-Us-Part-2-Bild-1.jpg");
+	background-size: cover;
+}
+.content .jackson-county .background .text{
+	width: 350px;
+	height:250px;
+/*	background: black;*/
+	color: white;
+	float: left;
+	margin-left: 40px;
+	margin-top:300px
+}
+.content .jackson-county .background .text .yellow-underline{
+	font-size: 30px;
+	font-weight: 600;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+	display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fec107;
+	margin-bottom: 25px;
+}
+.content .jackson-county .background .text p{
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+.jackson-county .background .text .button1{
+    font-size: 15px;
+/*	font-weight: 550;*/
+	color: white;
+    background: #fec107;
+    padding: 12px 25px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.jackson-county .background .text .button1 span{
+    position:relative;
+    display:inline-block;
+    cursor:pointer;
+	transition:0.5s;
+}
+.jackson-county .background .text .button1 span:after{
+    content:"\2192";
+    position:absolute;
+    right: 5px;
+	margin-right: -5px;
+    transition:0.5s;
+    opacity:0;
+}
+.jackson-county .background .text .button1:hover span{
+    padding-right:20px;
+}
+.jackson-county .background .text .button1:hover span:after{
+    opacity:1;
+    right:0;
+}
+.jackson-county .slideshow{
+	background: #141b21;
+	width: 1000px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+}
+.jackson-county .slideshow .prev{
+	background: #141b21;
+    width: 50px;
+	height: 100px;
+	border: none;
+	border-top-right-radius: 30%;
+	border-bottom-right-radius: 30%;
+	float: left;
+}
+.jackson-county .slideshow .prev:hover{
+	background: #19232A;
+	transition-duration: 0.2s;
+}
+.jackson-county .slideshow .prev span{
+	color: white;
+	font-size: 60px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.jackson-county .slideshow .prev span:hover{
+	color:#FEC107;
+	transition-duration: 0.5s;
+}
+.jackson-county .slideshow .slide-1{
+/*	background: red;*/
+	width: 290px;
+	height: 200px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.jackson-county .slideshow .slide-1 img{
+	opacity: 0.5;
+}
+.jackson-county .slideshow .slide-1 img:hover{
+	opacity: 1.0;
+	background:#19232A;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	transition-duration: 0.5s;
+}
+.jackson-county .slideshow .slide-2{
+/*	background: red;*/
+	width: 290px;
+	height: 200px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.jackson-county .slideshow .slide-2 img{
+	opacity: 0.5;
+}
+.jackson-county .slideshow .slide-2 img:hover{
+	opacity: 1.0;
+	background:#19232A;
+	padding-top: 14.5px;
+	padding-bottom: 14.5px;
+	transition-duration: 0.5s;
+}
+.jackson-county .slideshow .slide-3{
+/*	background: red;*/
+	width: 290px;
+	height: 200px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.jackson-county .slideshow .slide-3 img{
+	opacity: 0.5;
+}
+.jackson-county .slideshow .slide-3 img:hover{
+	opacity: 1;
+	background:#19232A;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	transition-duration: 0.5s;
+}
+.jackson-county img{
+	cursor: pointer;
+}
+.jackson-county .slideshow .next{
+	background: #141b21;
+    width: 50px;
+	height: 100px;
+	border: none;
+	border-top-left-radius: 30%;
+	border-bottom-left-radius: 30%;
+	float: left;
+}
+.jackson-county .slideshow .next:hover{
+	background: #19232A;
+	transition-duration: 0.2s;
+}
+.jackson-county .slideshow .next span{
+	color: white;
+	font-size: 60px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.jackson-county .slideshow .next span:hover{
+	color:#FEC107;
+	transition-duration: 0.5s;
+}
+/*jacksoncounty*/
+.content .open-world{
+/*	background: aqua;*/
+	width: 1000px;
+	height: 563px;
+	background-image: url("../image/the-last-of-us-state-of-play-screen-03-ps4-us-24sep19.jpg");
+	background-size: cover;
+}
+.content .open-world .text{
+	background: rgba(25,35,42,0.7);
+	width: 400px;
+	height: 418px;
+	float: right;
+	color: white;
+	margin-top: 110px;
+	margin-right:25px;
+}
+.open-world .text .yellow-underline{
+	font-size: 30px;
+	font-weight: 600;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+	display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fec107;
+	margin-bottom: 32px;
+}
+.open-world .text p{
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+}
+.img-1{
+/*	background:pink;*/
+	background-image: url("../image/maxresdefault (1).jpg");
+	background-size: cover;
+	width: 400px;
+	height: 225px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+}
+.img-1 .fade{
+	position: relative;
+	width:50px;
+}
+.img-1 .fade .black{
+	opacity: 1;
+	cursor: pointer;
+  	display: block;
+  	width: 50px;
+  	height: auto;
+  	transition: .5s;
+  	backface-visibility: hidden;
+}
+.img-1 .fade .red{
+	display: block;
+	transition: .3s;
+  	opacity: 0;
+  	position: absolute;
+  	transform: translate(0, -100%);
+/*  	-ms-transform: translate(50%, 50%);*/
+}
+.img-1 .fade:hover .black{
+	opacity: 0;
+}
+.img-1 .fade:hover .red{
+	opacity: 1;
+}
+/*open-world*/
+.content .more-video{
+	background: #141b21;
+	width: 1000px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+.more-video .img-story{
+	width: 280px;
+	height: 160px;
+	background-image: url("../image/the-last-of-us-part-ii-yt-thumbnail-01-ps4-en-us-14may20.jpg");
+	background-size: 280px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.more-video .img-story .fade{
+	position: relative;
+	width:50px;
+}
+.img-story .fade .black{
+	opacity: 1;
+	cursor: pointer;
+  	display: block;
+  	width: 50px;
+  	height: auto;
+  	transition: .5s;
+  	backface-visibility: hidden;
+}
+.img-story .fade .red{
+	display: block;
+	transition: .3s;
+  	opacity: 0;
+  	position: absolute;
+  	transform: translate(0, -100%);
+/*  	-ms-transform: translate(50%, 50%);*/
+}
+.img-story .fade:hover .black{
+	opacity: 0;
+}
+.img-story .fade:hover .red{
+	opacity: 1;
+}
+.more-video .img-detail{
+	width: 280px;
+	height: 160px;
+	background-image: url("../image/maxresdefault (2).jpg");
+	background-size: 280px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.more-video .img-detail .fade{
+	position: relative;
+	width:50px;
+}
+.img-detail .fade .black{
+	opacity: 1;
+	cursor: pointer;
+  	display: block;
+  	width: 50px;
+  	height: auto;
+  	transition: .5s;
+  	backface-visibility: hidden;
+}
+.img-detail .fade .red{
+	display: block;
+	transition: .3s;
+  	opacity: 0;
+  	position: absolute;
+  	transform: translate(0, -100%);
+/*  	-ms-transform: translate(50%, 50%);*/
+}
+.img-detail .fade:hover .black{
+	opacity: 0;
+}
+.img-detail .fade:hover .red{
+	opacity: 1;
+}
+.more-video .img-gameplay{
+	width: 280px;
+	height: 160px;
+	background-image: url("../image/maxresdefault (4).jpg");
+	background-size: 280px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.more-video .img-gameplay .fade{
+	position: relative;
+	width:50px;
+}
+.img-gameplay .fade .black{
+	opacity: 1;
+	cursor: pointer;
+  	display: block;
+  	width: 50px;
+  	height: auto;
+  	transition: .5s;
+  	backface-visibility: hidden;
+}
+.img-gameplay .fade .red{
+	display: block;
+	transition: .3s;
+  	opacity: 0;
+  	position: absolute;
+  	transform: translate(0, -100%);
+/*  	-ms-transform: translate(50%, 50%);*/
+}
+.img-gameplay .fade:hover .black{
+	opacity: 0;
+}
+.img-gameplay .fade:hover .red{
+	opacity: 1;
+}
+/*more-video*/
+.content .pre-order{
+/*	background: green;*/
+	width: 1000px;
+	height: 545px;
+	background-image: url("../image/product.jpg");
+	background-size: cover;
+}
+.pre-order .choose-edition{
+/*	background: rgba(139,111,112,1.00);*/
+	height: 130px;
+	width:900px;
+	color: white;
+	margin-left: 80px
+}
+.pre-order .choose-edition .yellow-underline{
+	font-size: 30px;
+	font-weight: 600;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+	display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 5px solid #fec107;
+	margin-top: 35px;
+	margin-bottom: 13px;
+	letter-spacing: 1px;
+}
+.pre-order .choose-edition .select-edtion ul{
+	list-style: none;
+	font-size: 15px;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+}
+.pre-order .choose-edition .select-edtion ul li{
+	float:left;
+	margin-right: 35px;
+	opacity: 0.5;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+}
+.pre-order .choose-edition .select-edtion ul li:hover{
+	opacity:1;
+	display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fec107;
+	transition-duration: 0.3s;
+}
+.pre-order .more-detail{
+/*	background: cyan;*/
+	width: 250px;
+	height: 383px;
+	float: right;
+	margin-right: 45px;
+}
+.pre-order .more-detail .text{
+	width: 250px;
+	height: 110px;
+/*	background: red;*/
+	margin-bottom: 8px;
+}
+.pre-order .more-detail .text p{
+	font-size:25px;
+	font-weight: 600;
+    font-family: Oswald,sans-serif;
+	color: white;
+	letter-spacing: 1px;
+}
+.pre-order .more-detail .text .button3{
+	background: #FEC107;
+	width: 145px;
+	height: 45px;
+	margin-top: 10px;
+	border: none;
+	font-size: 20px;
+	font-family: Oswald,sans-serif;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.more-detail .text .button3 span:hover{
+	color: white;
+}
+.more-detail .scrollbar{
+/*	background-color: #F5F5F5;*/
+    float: right;
+    height: 265px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    width: 250px;
+    overflow-y: scroll;
+}
+.scrollbar .force-overflow {
+    min-height: 200px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 13px;
+}
+.more-detail #style-1::-webkit-scrollbar {
+    width: 5px;
+/*    background-color: #F5F5F5;*/
+}
+.more-detail #style-1::-webkit-scrollbar-thumb {
+    background-color: #fec107;
+}
+.more-detail #style-1::-webkit-scrollbar-track {
+    background-color: rgba(124,126,120,.5);
+}
+.force-overflow ul{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.force-overflow ul li{
+	margin-bottom: 15px;
+}
+.force-overflow ul li:before{
+	font-size: 20px;
+    color: #fec107;
+	content: "■";
+    padding-right: 10px;
+}
+.wrapper .footer{
+	background: #141B21;
+	width: 1000px;
+	height: 390px;
+}
+.footer .follow{
+	background: #141B21;
+	height: 165px
+}
+.footer .follow p{
+	text-align: center;
+	color: white;
+	font-family: 'Oswald',san-serif;
+	font-size: 30px;
+	padding-top:25px;
+}
+.footer .follow .logo-icon{
+/*	background: red;*/
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.footer .follow .logo-icon a{
+	height:40px;
+	display: inline-block;
+	margin: 0 15px;
+}
+.footer .follow .logo-icon img{
+	height: 40px;
+}
+.footer .follow .logo-icon img:hover{
+	opacity: 0.7;
+}
+.footer hr{
+	width: 300px;
+	margin-left: 350px;
+	margin-bottom: 50px;
+}
+.footer .left{
+/*	background: #BE04F0;*/
+	width: 500px;
+	height:150px;
+	float: left;
+	margin-left: 10px;
+}
+.footer .left #ND{
+	font-size:22px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.footer .left p{
+	font-family: 'Roboto', san-serif;
+	font-size:16px;
+	color: white;
+	margin-bottom:10px;
+}
+.footer .right{
+/*	background: #00C8F1;*/
+	width: 250px;
+	height:100px;
+	float: right;
+	padding-top: 35px;
+}
+.footer .right img{
+	margin-right: 6px;
+}
